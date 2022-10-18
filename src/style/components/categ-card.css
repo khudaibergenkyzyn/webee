@@ -1,0 +1,45 @@
+.categ-attr>ant-form-item{
+    position: relative;
+}
+.categ-attr{
+    margin-bottom: 30px;
+}
+.categ-attr .anticon.anticon-close{
+    position: absolute;
+    right: -20px;
+    transform: translateY(50%);
+}
+.add-attr-btn > button{
+    width: 100% !important;
+}
+.add-attr-btn{
+    position: relative;
+}
+/* .add-attr-btn > button:hover{
+    color: #000;
+} */
+.attr-list{
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 5;
+}
+.attr-item{
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #fff;
+}
+.attr-list.active{
+    display: block;
+}
+.attr-item:hover{
+    color: #40a9ff;
+}
+.card-info button{
+    width: 100%;
+}

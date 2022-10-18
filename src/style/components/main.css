@@ -1,0 +1,8 @@
+.main-inner{
+    display: flex;
+    /* gap: 30px; */
+    flex-wrap: wrap;
+}
+.main-inner>.ant-form-item{
+    width: 24%;
+}
